@@ -8,7 +8,8 @@ Application started, react worked, data fetched.
 
 In ClientApp folder add .env.production file with PUBLIC_URL variable.  
 Publish project to folder.  
-Install dotnet-hosting bundle, create pool (no managed code) and add application (Alias set to PUBLIC_URL, select folder).  
+Install dotnet-hosting bundle.  
+In IIS create pool (no managed code) and add application (Alias set to PUBLIC_URL, select folder).  
 The site opens and works.  
 
 ## Server application
