@@ -6,6 +6,7 @@ Application has started, react is working, data is fetching.
 
 ## Release publication
 
+In index.js added a trailing slash in url.   
 In ClientApp folder add .env.production file with PUBLIC_URL variable.  
 Publish project to folder.  
 Install dotnet-hosting bundle.  
