@@ -13,7 +13,8 @@ The site opens and works.
 
 ## Server application
 
-Add nuget package for file logging (for example, NLog.Web.AspNetCore). Create logger config and add initialization code in Program.cs.  
+Add nuget package for file logging (for example, NLog.Web.AspNetCore).  
+Create logger config and add initialization code in Program.cs.  
 
 ## Comming soon...
 
