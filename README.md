@@ -1,7 +1,7 @@
 ## Creating project
 
 In Visual Studio 2022 create a new project from 'ASP.NET Core with React.js' (no authentication, uncheck https).  
-Application started, react worked, data fetched.  
+Application has started, react is working, data is fetching.  
 
 
 ## Release publication
