@@ -9,13 +9,13 @@ Application started, react worked, data fetched.
 In ClientApp folder add .env.production file with PUBLIC_URL variable.  
 Publish project to folder.  
 Install dotnet-hosting bundle.  
-In IIS create pool (no managed code) and add application (Alias set to PUBLIC_URL, select folder).  
+In IIS create pool (no managed code), add application (Alias set to PUBLIC_URL, select folder).  
 The site opens and works.  
 
 ## Server application
 
 Add nuget package for file logging (for example, NLog.Web.AspNetCore).  
-Create logger config and add initialization code in Program.cs.  
+Create logger config, add initialization code in Program.cs.  
 
 ## Comming soon...
 
