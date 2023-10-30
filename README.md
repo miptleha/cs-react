@@ -20,7 +20,7 @@ Create logger config, add initialization code in Program.cs.
 
 ## Client application
 
-Create own react application and controller for it.  
+Create react application and controller for it.  
 It is a blog application.
 
 ![img](demo.png)
