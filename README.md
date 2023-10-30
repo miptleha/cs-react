@@ -23,7 +23,7 @@ Create logger config, add initialization code in Program.cs.
 Create own react application and controller for it.  
 It is a blog application.
 
-[!img](demo.png)
+![img](demo.png)
 
 ClientApp uses a jsx hierarchy: App -> Pages -> Components -> UI elements.
 
