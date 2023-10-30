@@ -25,7 +25,7 @@ It is a blog application.
 
 ![img](demo.png)
 
-ClientApp uses a jsx hierarchy: App -> Pages -> Components -> UI elements.
+ClientApp hierarchy: App -> Pages -> Components -> UI elements.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmiptleha%2Fcs-react&count_bg=%230C7DBD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
