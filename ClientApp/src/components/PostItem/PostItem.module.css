@@ -1,0 +1,33 @@
+﻿.posts {
+    border: 1px solid silver;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.post {
+    flex: 1 1 auto;
+}
+
+.btns {
+    flex: 0 0 170px;
+    padding-left: 10px;
+}
+
+.first_btn {
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.text {
+    white-space: pre-line;
+}
+
+.date {
+    font-style: italic;
+}

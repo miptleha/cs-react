@@ -1,0 +1,44 @@
+﻿.page {
+    padding: 10px;
+}
+
+h1 {
+    margin-left: -2px;
+}
+
+.menu {
+    padding-top: 10px;
+}
+
+.link {
+    font-size: 1.2em;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+    .link.active {
+        font-weight: bold;
+    }
+
+input[type=text], textarea, select {
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+}
+
+    input[type=text]:focus, textarea:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #0d6efd;
+        outline: 0;
+    }
+
+.prg {
+    width: 100%;
+}
+
+.prg.hidden {
+    visibility: hidden;
+}

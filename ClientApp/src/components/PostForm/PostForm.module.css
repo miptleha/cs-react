@@ -1,0 +1,17 @@
+﻿.ok_btn {
+    margin-right: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+    min-width: 600px;
+}
+
+.body {
+    min-width: 600px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 5px;
+}

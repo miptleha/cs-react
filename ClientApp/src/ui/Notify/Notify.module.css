@@ -1,0 +1,13 @@
+﻿.notify {
+    margin-top: 10px;
+    position: static;
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+}
+
+.close:hover {
+    color: black;
+}

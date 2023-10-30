@@ -1,3 +1,5 @@
+using cs_react;
+using cs_react.Controllers;
 using NLog;
 using NLog.Web;
 
@@ -18,6 +20,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
+    app.UseMiddleware<ErrorHandlerMiddlewareProd>();
+}
+else
+{
+    app.UseMiddleware<ErrorHandlerMiddlewareDev>();
 }
 
 app.UseStaticFiles();
@@ -29,6 +36,9 @@ app.MapControllerRoute(
     pattern: "{controller}/{action=Index}/{id?}");
 
 app.MapFallbackToFile("index.html");
+
+logger.Debug("Create random posts");
+PostsController.CreateRandom();
 
 app.Run();
 
