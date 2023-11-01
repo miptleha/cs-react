@@ -3,6 +3,7 @@ import PostFilter from '../components/PostFilter/PostFilter';
 import PostForm from '../components/PostForm/PostForm';
 import PostList from '../components/PostList/PostList';
 import Dialog from '../ui/Dialog/Dialog';
+import Loader from '../ui/Loader/Loader';
 import Notify from '../ui/Notify/Notify';
 import Pages from '../ui/Pages/Pages';
 import { fetchData, postData } from '../utils/api';
@@ -26,6 +27,7 @@ const Posts = () => {
   const [perPage] = useState(5);
 
   const getData = useCallback(() => {
+    setIsLoading(true);
     postData('api/posts/getposts', { start: activePage * perPage, count: perPage, filter: filter }, (data) => {
       setPosts(data.posts);
       setTotalPages(Math.ceil(data.total / perPage));
@@ -89,6 +91,7 @@ const Posts = () => {
 
   return (
     <>
+      <Loader visible={isLoading}/>
       <Dialog visible={formVisible} setVisible={setFormVisible}>
         <PostForm okAction={formAction} cancelAction={closeForm} state={formState} />
       </Dialog>
